@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+    
+    <h3>Existing Plans are
+    </h3>
+    
+    
 <?php
 $servername = "localhost";
 $username = "username";
