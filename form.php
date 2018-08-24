@@ -18,7 +18,7 @@
 <body>
 <div style="margin: 30px 10%;">
 <h3>Telecom Plans Application form</h3>
-<form id="myform" name="myform" action="submit" method="post">
+<form id="myform" name="myform" action="submit.php" method="post">
 
 	<label>Plan Name</label> <input type="text" value="" size="30" maxlength="100" name="pname" id="" /><br /><br />
 <label>Monthly Rental</label> <input type="text" value="" size="30" maxlength="100" name="mrental" id="" /><br /><br />
@@ -55,17 +55,7 @@
 </form>
 </div>
   
-    <?php
-
-  if(isset($_POST['send']))
-{
-    $sql = "INSERT INTO plans (pname,mrental,callcharges,smscharges,datacharges,roamingcharges,freeinternet,freesms,freecalls)
-    VALUES ('".$_POST["pname"]."','".$_POST["mrental"]."','".$_POST["callcharges"]."','".$_POST["smscharges"]."','".$_POST["datacharges"]."','".$_POST["roamingcharges"]."','".$_POST["freeinternet"]."','".$_POST["freesms"]."','".$_POST["freecalls"]."')";
-
-    $result = mysqli_query($conn,$sql);
-}
-
-?>
+   
 
 </body>
 </html>
