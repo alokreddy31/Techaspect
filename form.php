@@ -4,9 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Application_form</title>
 
-<!--     
-    http://phpfiddle.org
--->
+
 
 <script type="text/javascript">
 	
@@ -20,7 +18,7 @@
 <body>
 <div style="margin: 30px 10%;">
 <h3>Telecom Plans Application form</h3>
-<form id="myform" name="myform" action="submit.php" method="post">
+<form id="myform" name="myform" action="submit" method="post">
 
 	<label>Plan Name</label> <input type="text" value="" size="30" maxlength="100" name="pname" id="" /><br /><br />
 <label>Monthly Rental</label> <input type="text" value="" size="30" maxlength="100" name="mrental" id="" /><br /><br />
